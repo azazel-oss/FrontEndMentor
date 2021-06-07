@@ -1,0 +1,60 @@
+.card {
+  margin: 120px auto;
+  margin-bottom: 0;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 70%;
+  height: 500px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.8;
+}
+
+.head {
+  font-family: "Big Shoulders Display", cursive;
+  color: rgb(242, 242, 242);
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px 40px;
+}
+.sedan .btn:hover {
+  color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px 40px;
+}
+.suv .btn:hover {
+  color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px 40px;
+}
+.luxury .btn:hover {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn {
+  border: 2px solid white;
+  background-color: hsla(0, 0%, 100%, 0);
+  display: block;
+  color: white;
+  margin: 50px 0;
+  border-radius: 26px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: hsla(0, 0%, 100%, 0);
+}
