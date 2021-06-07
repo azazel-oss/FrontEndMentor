@@ -1,0 +1,70 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  flex-direction: row;
+  width: 1080px;
+  height: 446px;
+  margin: auto;
+  margin-top: 9rem;
+  border-radius: 10px;
+}
+#accent {
+  color: hsl(277, 64%, 61%);
+}
+.card .text {
+  font-family: "Lexend Deca", sans-serif;
+  width: 50%;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 75px;
+  font-size: 15px;
+}
+
+.body_content {
+  padding-right: 20px;
+}
+
+.main_head {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.card .image {
+  width: 50%;
+  background-color: hsl(277, 64%, 61%);
+}
+.card .image img {
+  border-radius: 5px;
+  float: right;
+  mix-blend-mode: screen;
+  -webkit-filter: contrast(200%);
+  filter: contrast(200%);
+  opacity: 0.2;
+}
+.stats {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.stat_number {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.stat {
+  margin: 30px 30px 0 0;
+}
