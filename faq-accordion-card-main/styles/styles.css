@@ -1,0 +1,101 @@
+html {
+  min-height: 100%;
+}
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  height: 450px;
+  width: 70%;
+  margin: 9% auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.main_image {
+  overflow: hidden;
+  width: 50%;
+}
+
+.girl_img_shadow {
+  margin-top: -293px;
+  margin-left: -572px;
+}
+.box_img {
+  position: absolute;
+  top: 342px;
+  left: 115px;
+}
+.girl_img {
+  position: relative;
+  top: -573px;
+  left: -78px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.content {
+  width: 50%;
+  padding: 10px;
+  padding-right: 4rem;
+}
+.head {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 50px 0 40px 0;
+  color: hsl(237, 12%, 33%);
+}
+.question__component {
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  padding: 5px 2px;
+}
+
+.question__component .question__answer {
+  color: hsl(240, 6%, 50%);
+  font-size: 14px;
+  display: none;
+}
+.question__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.question__image img {
+  align-self: center;
+}
+.accordion {
+  padding-right: 50px;
+  line-height: 1.2rem;
+}
+.question__text {
+  margin: 6px 0 6px 0;
+  font-size: 1.2rem;
+  color: hsl(237, 12%, 33%);
+}
+.question__text:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.active .question__text {
+  font-weight: 700;
+}
+.active img {
+  transform: rotate(-180deg);
+  transition: 0.3s;
+}
+.active .question__answer {
+  display: block;
+}
