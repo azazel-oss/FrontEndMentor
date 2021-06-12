@@ -22,8 +22,6 @@ body {
   margin: 0 30px;
   display: inline;
 }
-.ratings {
-}
 .rating {
   background-color: hsl(300, 24%, 96%);
   height: 18%;
