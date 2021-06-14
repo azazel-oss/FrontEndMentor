@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f0bbacaee3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="side__container">
+        <img class="side__image" src="images/drawers.jpg" />
+      </div>
+      <div class="content">
+        <div class="content__head">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </div>
+        <div class="content__section">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </div>
+        <div class="author__creds">
+          <div class="author__profile">
+            <img class="user__img" src="images/avatar-michelle.jpg" />
+            <div class="user__text">
+              <div class="user__name">Michelle Appleton</div>
+              <div class="user__date">28 Jun 2020</div>
+            </div>
+          </div>
+          <button id="id__share" class="share__button">
+            <i class="fas fa-share"></i>
+          </button>
+          <div class="modal">
+            S H A R E <i class="fab fa-facebook-square large__glyph"></i>
+            <i class="fab fa-twitter large__glyph"></i>
+            <i class="fab fa-pinterest large__glyph"></i>
+            <div class="triangle__down"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Asad Mahmood</a>.
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
