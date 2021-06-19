@@ -1,0 +1,130 @@
+/*
+Red: 
+Cyan: 
+Orange: 
+Blue:  
+Very Dark Blue: 
+Grayish Blue: hsl(229, 6%, 66%)
+Very Light Gray: 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+}
+
+.header {
+  text-align: center;
+  margin: 60px;
+  color: hsl(234, 12%, 34%);
+}
+
+.light {
+  display: block;
+  font-weight: 200;
+}
+
+.sub__head {
+  margin: 20px auto;
+  width: 43%;
+  color: hsl(229, 6%, 66%);
+}
+
+.card__grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card__grid__col {
+  width: 27%;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  height: 240px;
+  margin: 40px 0;
+  padding: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.53);
+  z-index: 10;
+}
+
+.card.card__cyan::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: hsl(180, 62%, 55%);
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.card.card__red::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: hsl(0, 78%, 62%);
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.card.card__orange::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: hsl(34, 97%, 64%);
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.card.card__blue::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: hsl(212, 86%, 64%);
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.card__heading {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 15px 0;
+}
+
+.card__icon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
